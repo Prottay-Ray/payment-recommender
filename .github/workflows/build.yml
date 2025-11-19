@@ -1,4 +1,4 @@
-name: Use Java-Maven Build
+name: Build and Test
 
 on:
   push:
@@ -10,5 +10,5 @@ on:
 
 jobs:
   build:
-    name: Build Java Maven Project
+    name: Build and Test Java Maven Project
     uses: Prottay-Ray/workflow-hub/.github/workflows/java-maven-build.yml@main
