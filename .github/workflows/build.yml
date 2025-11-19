@@ -1,0 +1,15 @@
+# .github/workflows/use-java-maven-build.yml
+name: Use Java-Maven Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build Java Maven Project
+    uses: Prottay-Ray/workflow-hub/.github/workflows/java-maven-build.yml@main
