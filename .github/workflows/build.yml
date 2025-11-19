@@ -10,5 +10,4 @@ on:
 
 jobs:
   build:
-    name: Build and Test Java Maven Project
     uses: Prottay-Ray/workflow-hub/.github/workflows/java-maven-build.yml@main
