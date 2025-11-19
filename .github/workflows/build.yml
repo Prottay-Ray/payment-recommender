@@ -1,4 +1,3 @@
-# .github/workflows/use-java-maven-build.yml
 name: Use Java-Maven Build
 
 on:
